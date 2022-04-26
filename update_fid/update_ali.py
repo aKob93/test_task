@@ -2,8 +2,8 @@
 from lxml import etree
 import requests
 
-FILE_VENDOR = 'http://stripmag.ru/datafeed/p5s_full_stock.xml'
-FILE_PROCESSING = 'http://alitair.1gb.ru/Intim_Ali_allfids_2.xml'
+FILE_VENDOR = '' #XML поставщика
+FILE_PROCESSING = '' #XML для обновления данных из файла поставщика
 
 
 # создание xml для обработки
